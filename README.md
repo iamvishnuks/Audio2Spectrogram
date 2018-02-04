@@ -13,6 +13,8 @@ After installing above packages using apt, install python packages required by t
 
 `pip install -r requirements.txt`
 
+or you can just install it by `pip install audio2spectrogram`
+
 ## Usage
 This tool have 3 options,
 1. mp3towav
@@ -25,5 +27,7 @@ it's spectrogram.
 ### example:
 
 `python Audio2Spectrogram.py <path to mp3 files directory> --mp3towav --mkchunks --spectrogram`
+
+`audio2spectrogram <path to mp3 files directory> --mp3towav --mkchunks --spectrogram`
 
 It will convert mp3 to wav, create chunks and generate spectrograms.
