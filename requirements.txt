@@ -1,0 +1,4 @@
+pydub
+matplotlib
+scipy
+pillow
